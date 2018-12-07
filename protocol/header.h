@@ -3,6 +3,7 @@
 
 #define HEAD_SIZE 5
 #define TIME_SIZE	5
+#define SPLIT_SIZE 1
 //обвязка пакета (заголовок + crc [2 byte])
 #define CRC_SIZE 2
 #define BINDER_SIZE (HEAD_SIZE+CRC_SIZE)
